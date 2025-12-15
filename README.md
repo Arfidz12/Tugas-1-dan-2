@@ -3,23 +3,11 @@ Inti dari operasi ini adalah Konvolusi menggeser kernel (matriks filter) di atas
 
 # Mode Filter yang Diimplementasikan
 | Tombol | Mode Filter | Efek & Fungsi |
-|:---|:---:|---:|
+|:---:|:---:|:---:|
 | 0 | Normal | Menampilkan background tanpa filter.|
-| 1 | Average Blurring 5x5 | Blurring sederhana dengan kernel 
-5
-×
-5
- yang terbobot rata |
-| 2 | Average Blurring 9x9 | Blurring sederhana dengan kernel 
-9
-×
-9
-. |
-| 3 | Gaussian Blurring | Blurring yang halus dan natural, menggunakan kernel 
-9
-×
-9
- berbasis Distribusi Gaussian. |
+| 1 | Average Blurring 5x5 | Blurring sederhana dengan kernel 5×5 yang terbobot rata |
+| 2 | Average Blurring 9x9 | Blurring sederhana dengan kernel 9×9. |
+| 3 | Gaussian Blurring | Blurring yang halus dan natural, menggunakan kernel 9×9 berbasis Distribusi Gaussian. |
 | 4 | Sharpening | Meningkatkan ketajaman dan detail (kebalikan dari blurring). |
 
 # Tugas 2 : Interaksi Berbasis Deteksi Warna HSV (RGB)
@@ -27,7 +15,7 @@ HSV memisahkan warna dari kecerahan, sehingga deteksi warna menjadi lebih stabil
 
 
 | Warna Terdeteksi | Perubahan | Status |
-|:---|:---:|---:|
+|:---:|:---:|:---:|
 | Biru | Background berubah menjadi Biru | Deteksi: Biru |
 | Hijau | Background berubah menjadi Hijau | Deteksi: Hijau |
 | Merah | Background berubah menjadi Merah | Deteksi: Merah |
